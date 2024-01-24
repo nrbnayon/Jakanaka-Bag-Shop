@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* style for navbar starts here */
+.header-section {
+  background-color: #9376e0;
+  margin-bottom: 20px;
+}
+.nav-cantainer {
+  min-height: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.logo-container {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.logo-container p {
+  font-size: 25px;
+}
+.shop-text {
+  color: #e893cf;
+  font-weight: 800;
+}
+.logo-container img {
+  width: 100px;
+  object-fit: cover;
+}
+
+.items-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.items-container a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.items-container .login-button {
+  background-color: #e893cf;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: black;
+}
+
+/* style for navbar ends here */
+
+/* style for banner section starts here  */
+
+.banner-section {
+  display: flex;
+  max-width: 1250px;
+  margin: 0 auto;
+  background-color: #e6e9eb;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.banner-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  gap: 10px;
+}
+.banner-text h1 {
+  background: linear-gradient(to top, #e893cf, #9376e0);
+  background-clip: text;
+  color: transparent;
+  font-size: 60px;
+}
+.banner-text p {
+  font-family: "Kaushan Script", cursive;
+  font-size: 40px;
+}
+.banner-image {
+  width: 50%;
+  position: relative;
+}
+.banner-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.discount {
+  height: 90px;
+  width: 90px;
+  background-color: rgb(128, 128, 16);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 700;
+  border: 2px solid black;
+  position: absolute;
+  bottom: 65%;
+  left: 65%;
+}
+.banner-buttons {
+  display: flex;
+  gap: 10px;
+}
+.common-button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #e893cf;
+  border-radius: 5px;
+}
+.fa-brands {
+  font-size: 40px;
+}
+/* style for banner section ends here  */
+
+/* style for products sections */
+.products-section {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.single-product {
+  /* width: 30%; */
+  /* border: 1px solid blue; */
+  padding: 15px;
+  background-color: #e6e9eb;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.single-product h1,
+p,
+span,
+button {
+  margin-bottom: 5px;
+}
+.single-product img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.product-name {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-icon {
+  font-size: 18px;
+}
+.product-icon-container span {
+  background-color: #9376e0;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+}
+/* style for gallery sections */
+
+.gallery-section {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.gallery-container {
+  min-height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+  /* align-items: center; */
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #e6e9eb;
+}
+.single-image {
+  flex-basis: 280px;
+  border-radius: 10px;
+  background-color: #e6e9eb;
+  padding: 10px;
+  /* height: 300px; */
+}
+.single-image img {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+
+/* footer style  */
+footer {
+  background-color: #9376e0;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  min-height: 200px;
+}
+.footer-container img {
+  width: 40px;
+  object-fit: cover;
+}
